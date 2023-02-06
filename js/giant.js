@@ -228,14 +228,27 @@ $(function() {
     });
 	
     // 9. skills bar
+    // $(".show-skillbar").appear(function() {
+    //     $(".skillbar").skillBars({
+    //         from: 0,
+    //         speed: 4000,
+    //         interval: 100,
+    //         decimals: 0
+    //     });
+    // });
     $(".show-skillbar").appear(function() {
-        $(".skillbar").skillBars({
-            from: 0,
-            speed: 4000,
-            interval: 100,
-            decimals: 0
-        });
-    });
+        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var textLength = text.length;
+        var currentLength = 0;
+        var skillbarText = $(".skillbar-text");
+        var timer = setInterval(function() {
+          skillbarText.text(text.substring(0, currentLength));
+          currentLength++;
+          if (currentLength > textLength) {
+            clearInterval(timer);
+          }
+        }, 20);
+      });
 	
     // 10. forms
     // 10-1. contact form
