@@ -389,7 +389,7 @@ $(function() {
 // 17. google maps POSITION
 function initialize() {
     // EDIT: map latitude and longitude
-    var myLatlng = new google.maps.LatLng(34.052235, -118.243683);
+    var myLatlng = new google.maps.LatLng(43.84861956005457, 10.662822204782163);
     // EDIT: map marker
     var imagePath = "img/location-icon.png";
     var mapOptions = {
@@ -482,7 +482,7 @@ function initialize() {
             }]
         }
     // EDIT: map address
-    var contentString = "<strong>Giant</strong><br>ex Inc. Touchdown Dr<br>1176 Los Angeles, CA";
+    var contentString = "<strong>Studio23</strong><br>Via Roma 7<br>Montecarlo, Lucca";
     var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 300
@@ -493,7 +493,7 @@ function initialize() {
         map: map,
         icon: imagePath,
         // EDIT: map title
-        title: "Giant"
+        title: "Studio23"
     });
     google.maps.event.addListener(marker, "click", function() {
         infowindow.open(map, marker);

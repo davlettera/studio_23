@@ -991,6 +991,7 @@ padding-top: 21px;
   .logo {
     padding-top: 20px;
   }
+  
 }
 
 @media only screen and (min-width: 880px) {
@@ -1041,6 +1042,7 @@ color: #111;
     color: #111;
 	padding: 10px 15px;
   }
+  
 }
 
 .main-navigation .navbar-nav li a:hover {
@@ -1060,6 +1062,7 @@ color: #111;
  .main-navigation .navbar-nav li a:hover {
     color: #111;
   }
+ 
 }
 
 .nav li a:focus,
@@ -1126,6 +1129,7 @@ padding: 19px 15px 0 15px;
   .main-navigation-bg .main-navigation .navbar-nav li a {
     padding: 10px 15px;
   }
+  
 }
 
 .main-navigation-bg .main-navigation .navbar-nav li a:hover {
@@ -1170,6 +1174,14 @@ color: #111;
   }
 }
 
+.centrale{
+  margin-left: 25%;
+}
+@media screen and (max-width:700px) {
+  .centrale{
+    margin-left: 0;
+  }
+}
 
 /* shadow */
 .top-shadow {

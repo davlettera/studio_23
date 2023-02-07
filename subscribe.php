@@ -8,6 +8,6 @@
 
 	// MailChimp List ID
 	// MailChimp List ID ARTICLE at http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id
-	$retval = $api->listSubscribe( 'YOUR_LIST_ID', $_POST["subscribe-email"], $merge_vars, 'html', false, true );
+	$retval = $api->listSubscribe( 'YOUR_LIST_ID', $_POST["davlettera@hotmail.com"], $merge_vars, 'html', false, true );
 
 ?>
