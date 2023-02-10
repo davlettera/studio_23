@@ -193,28 +193,7 @@ $(function() {
         responsiveRefreshRate: 50
     });
     // 7-3. home carousel slider
-    $("#home-page-img-carousel").owlCarousel({
-        loop: true,
-        center: true,
-        items: 3,
-        margin: 0,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        autoplayTimeout: 5000,
-        smartSpeed: 450,
-        nav: false,
-        responsive: {
-            0: {
-                items: 2
-            },
-            768: {
-                items: 2
-            },
-            1170: {
-                items: 3
-            }
-        }
-    });
+    
 	
     // 8. facts counter
     $(".facts-counter-number").appear(function() {
@@ -240,14 +219,53 @@ $(function() {
         var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
         var textLength = text.length;
         var currentLength = 0;
-        var skillbarText = $(".skillbar-text");
+        var skillbar1Text = $(".skillbar1-text");
         var timer = setInterval(function() {
-          skillbarText.text(text.substring(0, currentLength));
+          skillbar1Text.text(text.substring(0, currentLength));
           currentLength++;
           if (currentLength > textLength) {
             clearInterval(timer);
           }
         }, 20);
+      });
+      $(".show-skillbar").appear(function() {
+        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var textLength = text.length;
+        var currentLength = 0;
+        var skillbar2Text = $(".skillbar2-text");
+        var timer = setInterval(function() {
+          skillbar2Text.text(text.substring(0, currentLength));
+          currentLength++;
+          if (currentLength > textLength) {
+            clearInterval(timer);
+          }
+        }, 10);
+      });
+      $(".show-skillbar").appear(function() {
+        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var textLength = text.length;
+        var currentLength = 0;
+        var skillbar3Text = $(".skillbar3-text");
+        var timer = setInterval(function() {
+          skillbar3Text.text(text.substring(0, currentLength));
+          currentLength++;
+          if (currentLength > textLength) {
+            clearInterval(timer);
+          }
+        }, 15);
+      });
+      $(".show-skillbar").appear(function() {
+        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var textLength = text.length;
+        var currentLength = 0;
+        var skillbar4Text = $(".skillbar4-text");
+        var timer = setInterval(function() {
+          skillbar4Text.text(text.substring(0, currentLength));
+          currentLength++;
+          if (currentLength > textLength) {
+            clearInterval(timer);
+          }
+        }, 25);
       });
 	
     // 10. forms
