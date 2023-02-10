@@ -216,7 +216,7 @@ $(function() {
     //     });
     // });
     $(".show-skillbar").appear(function() {
-        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var text = "Staff qualificato e set tecnico all'avanguardia per ogni tipo di produzione video, fotografica e musicale";
         var textLength = text.length;
         var currentLength = 0;
         var skillbar1Text = $(".skillbar1-text");
@@ -229,7 +229,7 @@ $(function() {
         }, 20);
       });
       $(".show-skillbar").appear(function() {
-        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var text = "Linguaggi di programmazione più versatili, Frameworks più attuali e soluzioni personalizzate";
         var textLength = text.length;
         var currentLength = 0;
         var skillbar2Text = $(".skillbar2-text");
@@ -239,10 +239,10 @@ $(function() {
           if (currentLength > textLength) {
             clearInterval(timer);
           }
-        }, 10);
+        }, 25);
       });
       $(".show-skillbar").appear(function() {
-        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var text = "software di design aggiornati, risorse grafiche al servizio di  creatività e tipografia, ";
         var textLength = text.length;
         var currentLength = 0;
         var skillbar3Text = $(".skillbar3-text");
@@ -252,10 +252,10 @@ $(function() {
           if (currentLength > textLength) {
             clearInterval(timer);
           }
-        }, 15);
+        }, 30);
       });
       $(".show-skillbar").appear(function() {
-        var text = "Questo è un testo generico di 40 caratteriQuesto è un testo generico di 40 caratteriQuesto è un testoQuesto è un";
+        var text = "competenze nell'utilizzo delle piattaforme social, comunicazione efficace dei contenuti e analisi dei dati";
         var textLength = text.length;
         var currentLength = 0;
         var skillbar4Text = $(".skillbar4-text");
@@ -265,7 +265,7 @@ $(function() {
           if (currentLength > textLength) {
             clearInterval(timer);
           }
-        }, 25);
+        }, 20);
       });
 	
     // 10. forms
